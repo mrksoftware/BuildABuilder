@@ -276,19 +276,19 @@ textArea {
 .inputTextArea {
   height: 10em;
 
-  -webkit-transition: 0.35s ease-in-out;
-  -moz-transition: 0.35s ease-in-out;
-  -o-transition: 0.35s ease-in-out;
-  transition: 0.35s ease-in-out;
+  -webkit-transition: height 0.35s ease-in-out;
+  -moz-transition: height 0.35s ease-in-out;
+  -o-transition: height 0.35s ease-in-out;
+  transition: height 0.35s ease-in-out !important; /*important for chrome*/
 }
 
 .inputTextArea:focus {
   height: 20em;
 
-  -webkit-transition: 0.35s ease-in-out;
-  -moz-transition: 0.35s ease-in-out;
-  -o-transition: 0.35s ease-in-out;
-  transition: 0.35s ease-in-out;
+  -webkit-transition: height 0.35s ease-in-out;
+  -moz-transition: height 0.35s ease-in-out;
+  -o-transition: height 0.35s ease-in-out;
+  transition: height 0.35s ease-in-out !important; /*important for chrome*/
 }
 
 .sectionTitle {
